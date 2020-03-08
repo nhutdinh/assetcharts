@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es5",
+    "jsx": "preserve",
+    "lib": [
+      "es2015",
+      "dom.iterable",
+      "es2016.array.include",
+      "es2017.object",
+      "dom"
+    ],
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*", "index.tsx"]
+}
